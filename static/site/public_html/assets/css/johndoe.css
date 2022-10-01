@@ -11417,6 +11417,21 @@ pre .code {
   text-align: center;
 }
 
+.skill-badge {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -weblit-transform: translate(-50%, -50%);
+  -webkit-transition: .5s !important;
+  transition: .5s !important;
+  -weblit-transition: .5s !important;
+  z-index: 2;
+  width: 50px;
+}
+
 .navbar .brand .brand-img {
   position: absolute;
   left: 50%;
@@ -11434,6 +11449,7 @@ pre .code {
   width: 170px;
   border-radius: 50%;
 }
+
 
 .navbar .brand .brand-txt {
   position: relative;
