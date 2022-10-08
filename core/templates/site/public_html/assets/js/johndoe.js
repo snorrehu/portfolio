@@ -56,7 +56,7 @@ $(window).on("load", function() {
 });
 
 
-// google maps
+// google map
 function initMap() {
 // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('map'), {
